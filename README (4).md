@@ -16,7 +16,7 @@ and Helm on AWS EC2 with Minikube.
 -   SSH Access
 -   Internet Access
 -   
-![screenshot](./screenshot/ins.png)
+![screenshot](./screenshot/1.png)
 -----------------------------------------------------------------------
 AWS Security Group
 
