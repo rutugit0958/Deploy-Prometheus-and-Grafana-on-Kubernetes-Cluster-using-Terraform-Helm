@@ -16,7 +16,7 @@ and Helm on AWS EC2 with Minikube.
 -   SSH Access
 -   Internet Access
 -   
-![screenshot](./screenshot/1.png)
+![screenshot](./Screenshots/1.png)
 -----------------------------------------------------------------------
 AWS Security Group
 
@@ -50,7 +50,7 @@ kubectl get nodes
 ```
 
 ------------------------------------------------------------------------
-![screenshot](./screenshot/2.png)
+![screenshot](./Screenshots/2.png)
 ## 4. Install kubectl
 
 ``` bash
@@ -184,7 +184,7 @@ terraform apply -auto-approve
 ```
 
 ------------------------------------------------------------------------
-![screenshot](./screenshot/1.png)
+![screenshot](./Screenshots/1.png)
 ## 10. Verify
 
 ``` bash
@@ -193,7 +193,7 @@ kubectl get svc -n monitoring
 ```
 
 ------------------------------------------------------------------------
-![screenshot](./screenshot/3.png)
+![screenshot](./Screenshots/3.png)
 ## 11. Browser Access Fix (Important)
 
 ### Grafana
@@ -201,7 +201,7 @@ kubectl get svc -n monitoring
 ``` bash
 kubectl port-forward -n monitoring svc/grafana --address 0.0.0.0 3000:80
 ```
-![screenshot](./screenshot/g4.png)
+![screenshot](./Screenshots/g4.png)
 ### Prometheus
 
 ``` bash
@@ -210,19 +210,19 @@ kubectl port-forward -n monitoring svc/prometheus-server --address 0.0.0.0 9090:
 ```
 
 ------------------------------------------------------------------------
-![screenshot](./screenshot/p2.png)
+![screenshot](./Screenshots/p2.png)
 ## 12. Open Browser
 
 Grafana:
 
     http://<EC2-PUBLIC-IP>:3000
-![screenshot](./screenshot/g1.png)
+![screenshot](./Screenshots/g1.png)
 Prometheus:
 
     http://<EC2-PUBLIC-IP>:9090
 
 ------------------------------------------------------------------------
-![screenshot](./screenshot/p1.png)
+![screenshot](./Screenshots/p1.png)
 
 
 ------------------------------------------------------------------------
@@ -268,8 +268,8 @@ Select Prometheus
 
 Import
 ------------------------------------------------------------------------
-![screenshot](./screenshot/g2.png)
-![screenshot](./screenshot/g3.png)
+![screenshot](./Screenshots/g2.png)
+![screenshot](./Screenshots/g3.png)
 ## 16. Destroy Everything
 
 ``` bash
