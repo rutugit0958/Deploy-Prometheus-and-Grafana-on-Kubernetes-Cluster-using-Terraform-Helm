@@ -268,8 +268,8 @@ Select Prometheus
 
 Import
 ------------------------------------------------------------------------
-![screenshot](./Screenshots/g2.png)
-![screenshot](./Screenshots/g3.png)
+![screenshot](./Screenshots/7.png)
+![screenshot](./Screenshots/8.png)
 ## 16. Destroy Everything
 
 ``` bash
